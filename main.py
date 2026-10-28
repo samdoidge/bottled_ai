@@ -1,6 +1,7 @@
 import time
 import traceback
 
+from rs.ai.llm_advisor.strategy import LLM_IRONCLAD
 from rs.ai.claw_is_law.claw_is_law import CLAW_IS_LAW
 from rs.ai.peaceful_pummeling.peaceful_pummeling import PEACEFUL_PUMMELING
 from rs.ai.pwnder_my_orbs.pwnder_my_orbs import PWNDER_MY_ORBS
@@ -16,7 +17,7 @@ run_seeds = [
     #'LGZ12EEMFGUK',
 ]
 run_amount = 1
-strategy = PEACEFUL_PUMMELING
+strategy = LLM_IRONCLAD
 
 if __name__ == "__main__":
     init_log()
